@@ -28,19 +28,19 @@ After you've written your feature click run!(Make sure you have the Cucumber plu
 These are the step defs you'll need to add to make your feature runnable
 
 
-@Given("^yourgiventitle$")
+@Given("^your given title$")
 public void your_given_title() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }
 
-@When("^yourwhentitle")
+@When("^your when title")
 public void your_when_title() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
 }
 
-@Then("^yourthentitle$")
+@Then("^your then title$")
 public void your_then_title() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     throw new PendingException();
