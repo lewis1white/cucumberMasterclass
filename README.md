@@ -11,11 +11,11 @@ Navigate to this file and write a test in english on what you want to do (it cou
 
 The feature file must be layed out using certain keywords so the step definitions can understand it later, here is how you should lay out your first test:
 
-Feature: (put a little title for the overall feature)
-Scenario: (put a title for this test in the feature)
-Given (put the pre conditions needed for the test to run ie loading a page)
-When (put specific test requirements ie inputting certain data)
-Then (the expected result of the test ie the page has loaded)
+*Feature: (put a little title for the overall feature)
+*Scenario: (put a title for this test in the feature)
+*Given (put the pre conditions needed for the test to run ie loading a page)
+*When (put specific test requirements ie inputting certain data)
+*Then (the expected result of the test ie the page has loaded)
 
 After you've written your feature click run!
 
