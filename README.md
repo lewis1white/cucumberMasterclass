@@ -21,11 +21,33 @@ The feature file must be layed out using certain keywords so the step definition
 
 `Then` (the expected result of the test ie the page has loaded)
 
-After you've written your feature click run!
+After you've written your feature click run!(Make sure you have the Cucumber plugin installed on IntelliJ for ease)
 
 ## Step Definitions
 
-Your test should warn you that you have an undefined step and should give you snippets that you can use to implement your feature file. You should copy and paste these snippets into your step defintions class located at: test/java/stepDefs/firstStepDefs.java
+These are the step defs you'll need to add to make your feature runnable
+
+
+@Given("^yourgiventitle$")
+public void your_given_title() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@When("^yourwhentitle")
+public void your_when_title() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+@Then("^yourthentitle$")
+public void your_then_title() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    throw new PendingException();
+}
+
+
+You should copy and paste these snippets into your step defintions class located at: test/java/stepDefs/firstStepDefs.java
 
 These snippets have a comment in pushing you to write code that will turn our text into actual tests. For this code we will be using Selenium!
 
