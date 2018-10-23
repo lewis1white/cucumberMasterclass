@@ -9,17 +9,17 @@ First clone this repo onto your machine so you have an appropriate file structur
 The first step for a cucumber test is writing out what you want your test to do in plain english in a feature file. I have made one for you to write in already at src/test/features/myFirstFeature.feature
 Navigate to this file and write a test in english on what you want to do (it could be doing a search on google and checking the results contain your search; or entering incorrect login details on a form and checking the page doesn't login)
 
-The feature file must be layed out using certain keywords so the step definitions can understand it later, here is how you should lay out your first test:
+The feature file must be layed out using certain keywords so the step definitions can understand it later, here is how you should lay out your first test feature file:
 
-*Feature: (put a little title for the overall feature)
+*`Feature:` (put a little title for the overall feature)
 
-*Scenario: (put a title for this test in the feature)
+*`Scenario:` (put a title for this test in the feature)
 
-*Given (put the pre conditions needed for the test to run ie loading a page)
+*`Given` (put the pre conditions needed for the test to run ie loading a page)
 
-*When (put specific test requirements ie inputting certain data)
+*`When` (put specific test requirements ie inputting certain data)
 
-*Then (the expected result of the test ie the page has loaded)
+*`Then` (the expected result of the test ie the page has loaded)
 
 After you've written your feature click run!
 
