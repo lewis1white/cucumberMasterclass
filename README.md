@@ -57,4 +57,4 @@ Once all this is done we can run our feature file again and see the outcome of o
 
 Try paramitising your test so we can send multiple values to test at once
 
-To do this we will need to use the `Examples:` keyword in our feature file and also write our inputs in our feature file in this format : `<input`
+To do this we will need to use the `Examples:` keyword in our feature file and also write our inputs in our feature file in this format : `<input>`
