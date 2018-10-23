@@ -37,8 +37,24 @@ The first thing everyone will need to do is open up their browser, I have put a 
 
 We can use this to do so: `System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");`
 
-I also recommend the first steps in your first statement to be :
+I also recommend the steps in your first statement to be :
 
 1. Opening a new Chrome and assigning it to a global variable for later manipulation
 
 2. Using this to load up the webpage we want to test
+
+For your when statement here are some steps you can think about:
+
+1. Finding fields to input data using `findElement()`
+
+2. Inputing data using `sendKeys()` or clicking on buttons using `click()`
+
+Your then statement should include an Assert so we are actually making a test; make sure to include `yourvariablename.quit()` at the end to close your driver.
+
+Once all this is done we can run our feature file again and see the outcome of our test!!!
+
+## Further Work
+
+Try paramitising your test so we can send multiple values to test at once
+
+To do this we will need to use the `Examples:` keyword in our feature file and also write our inputs in our feature file in this format : `<input`
