@@ -1,6 +1,6 @@
 # cucumberMasterclass
 
-Complete this to become a Cucumber expert!! (ft. Selenium)
+Complete this to become a Cucumber expert!! (ft. Selenium) (Use IntelliJ)
 
 ## Getting started
 First clone this repo onto your machine so you have an appropriate file structure for testing!
@@ -21,7 +21,20 @@ The feature file must be layed out using certain keywords so the step definition
 
 `Then` (the expected result of the test ie the page has loaded)
 
+Click run -> Edit Configurations and make sure its setup like this:
+
+Main class: cucumber.api.cli.Main
+
+Glue: stepDefs
+
+Feature: Filepath to your feature folder
+
+Arguments:  --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome
+
+
+
 After you've written your feature click run!(Make sure you have the Cucumber java plugin installed on IntelliJ for ease)
+
 
 ## Step Definitions
 
