@@ -29,21 +29,18 @@ These are the step defs you'll need to add to make your feature runnable
 
 
 @Given("^your given title$")
-public void your_given_title() throws Throwable {
+public void your_given_title() {
     // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
 }
 
 @When("^your when title")
-public void your_when_title() throws Throwable {
+public void your_when_title() {
     // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
 }
 
 @Then("^your then title$")
-public void your_then_title() throws Throwable {
+public void your_then_title()  {
     // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
 }
 
 
