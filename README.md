@@ -46,11 +46,8 @@ These snippets have a comment in pushing you to write code that will turn our te
 
 Selenium allows us to drive our browser to load up pages and manipulate them to do what we want, I recommend doing some research into the different things Selenium can do before writing your code as it has many abilities and certain ones may be more helpful depending on what you're trying to do.
 
-The first thing everyone will need to do is open up their browser, I have put a chromedriver in the file structure and it is important for us to point Selenium in the direction of this for it to work.
 
-We can use this to do so: `System.setProperty("webdriver.chrome.driver", "/chromedriver.exe");`
-
-I also recommend the steps in your Given statement to be :
+I recommend the steps in your Given statement to be :
 
 1. Opening a new Chrome and assigning it to a global variable for later manipulation
 
